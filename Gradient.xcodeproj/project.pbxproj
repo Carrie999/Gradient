@@ -7,20 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76618A4C2BF8D26700AF46FC /* storekitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76618A4B2BF8D26700AF46FC /* storekitManager.swift */; };
+		76618A522BF8D6AB00AF46FC /* Propertylist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76618A512BF8D6AB00AF46FC /* Propertylist.plist */; };
+		76618A562BF8DA5D00AF46FC /* Product.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 76618A552BF8DA5D00AF46FC /* Product.storekit */; };
+		76618A582BF8EC1F00AF46FC /* Gradient.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 76618A572BF8EC1F00AF46FC /* Gradient.storekit */; };
+		76DF29DF2BF8C9BE00EE951D /* sendMailSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DF29DE2BF8C9BE00EE951D /* sendMailSwiftUIView.swift */; };
+		76E81A732BE249BF007899B0 /* gradients.json in Resources */ = {isa = PBXBuildFile; fileRef = 76E81A722BE249BF007899B0 /* gradients.json */; };
+		76E81A752BE24DCB007899B0 /* modelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E81A742BE24DCB007899B0 /* modelData.swift */; };
+		76E81A782BE33602007899B0 /* gradients2.json in Resources */ = {isa = PBXBuildFile; fileRef = 76E81A772BE33602007899B0 /* gradients2.json */; };
+		76E81A7A2BE338F5007899B0 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E81A792BE338F5007899B0 /* SettingView.swift */; };
+		76E81A7C2BE33B0B007899B0 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E81A7B2BE33B0B007899B0 /* NavView.swift */; };
+		76E81A7E2BE34323007899B0 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E81A7D2BE34323007899B0 /* GradientView.swift */; };
+		76E81A872BE47CC8007899B0 /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E81A862BE47CC8007899B0 /* LikeView.swift */; };
+		76E81A892BE48395007899B0 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E81A882BE48395007899B0 /* ColorExtensions.swift */; };
+		76E81A8B2BE4CAB7007899B0 /* SendEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E81A8A2BE4CAB7007899B0 /* SendEmailView.swift */; };
+		76E81A8D2BE4DCCD007899B0 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E81A8C2BE4DCCD007899B0 /* SwiftUIView.swift */; };
+		76E81A8F2BE5D179007899B0 /* swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E81A8E2BE5D179007899B0 /* swift.swift */; };
 		76E88C382BE23F9C00017F8A /* GradientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E88C372BE23F9C00017F8A /* GradientApp.swift */; };
-		76E88C3A2BE23F9C00017F8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E88C392BE23F9C00017F8A /* ContentView.swift */; };
-		76E88C3C2BE23F9C00017F8A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E88C3B2BE23F9C00017F8A /* Item.swift */; };
 		76E88C3E2BE23F9D00017F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E88C3D2BE23F9D00017F8A /* Assets.xcassets */; };
 		76E88C412BE23F9D00017F8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E88C402BE23F9D00017F8A /* Preview Assets.xcassets */; };
+		76E88C482BE23FF200017F8A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E88C472BE23FF200017F8A /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76618A4B2BF8D26700AF46FC /* storekitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storekitManager.swift; sourceTree = "<group>"; };
+		76618A512BF8D6AB00AF46FC /* Propertylist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Propertylist.plist; sourceTree = "<group>"; };
+		76618A552BF8DA5D00AF46FC /* Product.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Product.storekit; sourceTree = "<group>"; };
+		76618A572BF8EC1F00AF46FC /* Gradient.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gradient.storekit; sourceTree = "<group>"; };
+		76DF29DE2BF8C9BE00EE951D /* sendMailSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendMailSwiftUIView.swift; sourceTree = "<group>"; };
+		76E81A722BE249BF007899B0 /* gradients.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gradients.json; sourceTree = "<group>"; };
+		76E81A742BE24DCB007899B0 /* modelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelData.swift; sourceTree = "<group>"; };
+		76E81A772BE33602007899B0 /* gradients2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gradients2.json; sourceTree = "<group>"; };
+		76E81A792BE338F5007899B0 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		76E81A7B2BE33B0B007899B0 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		76E81A7D2BE34323007899B0 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		76E81A852BE3C661007899B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		76E81A862BE47CC8007899B0 /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
+		76E81A882BE48395007899B0 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		76E81A8A2BE4CAB7007899B0 /* SendEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendEmailView.swift; sourceTree = "<group>"; };
+		76E81A8C2BE4DCCD007899B0 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		76E81A8E2BE5D179007899B0 /* swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift.swift; sourceTree = "<group>"; };
 		76E88C342BE23F9C00017F8A /* Gradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E88C372BE23F9C00017F8A /* GradientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientApp.swift; sourceTree = "<group>"; };
-		76E88C392BE23F9C00017F8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		76E88C3B2BE23F9C00017F8A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		76E88C3D2BE23F9D00017F8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76E88C402BE23F9D00017F8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76E88C472BE23FF200017F8A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +84,25 @@
 		76E88C362BE23F9C00017F8A /* Gradient */ = {
 			isa = PBXGroup;
 			children = (
+				76E81A852BE3C661007899B0 /* Info.plist */,
 				76E88C372BE23F9C00017F8A /* GradientApp.swift */,
-				76E88C392BE23F9C00017F8A /* ContentView.swift */,
-				76E88C3B2BE23F9C00017F8A /* Item.swift */,
+				76E81A792BE338F5007899B0 /* SettingView.swift */,
+				76618A4B2BF8D26700AF46FC /* storekitManager.swift */,
+				76618A552BF8DA5D00AF46FC /* Product.storekit */,
+				76618A572BF8EC1F00AF46FC /* Gradient.storekit */,
+				76618A512BF8D6AB00AF46FC /* Propertylist.plist */,
+				76E81A8A2BE4CAB7007899B0 /* SendEmailView.swift */,
+				76E88C472BE23FF200017F8A /* MainView.swift */,
+				76E81A7D2BE34323007899B0 /* GradientView.swift */,
+				76E81A862BE47CC8007899B0 /* LikeView.swift */,
+				76E81A8C2BE4DCCD007899B0 /* SwiftUIView.swift */,
+				76DF29DE2BF8C9BE00EE951D /* sendMailSwiftUIView.swift */,
+				76E81A7B2BE33B0B007899B0 /* NavView.swift */,
+				76E81A8E2BE5D179007899B0 /* swift.swift */,
+				76E81A882BE48395007899B0 /* ColorExtensions.swift */,
+				76E81A742BE24DCB007899B0 /* modelData.swift */,
+				76E81A722BE249BF007899B0 /* gradients.json */,
+				76E81A772BE33602007899B0 /* gradients2.json */,
 				76E88C3D2BE23F9D00017F8A /* Assets.xcassets */,
 				76E88C3F2BE23F9D00017F8A /* Preview Content */,
 			);
@@ -128,8 +175,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76618A582BF8EC1F00AF46FC /* Gradient.storekit in Resources */,
 				76E88C412BE23F9D00017F8A /* Preview Assets.xcassets in Resources */,
 				76E88C3E2BE23F9D00017F8A /* Assets.xcassets in Resources */,
+				76618A562BF8DA5D00AF46FC /* Product.storekit in Resources */,
+				76618A522BF8D6AB00AF46FC /* Propertylist.plist in Resources */,
+				76E81A782BE33602007899B0 /* gradients2.json in Resources */,
+				76E81A732BE249BF007899B0 /* gradients.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +192,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76E88C3A2BE23F9C00017F8A /* ContentView.swift in Sources */,
-				76E88C3C2BE23F9C00017F8A /* Item.swift in Sources */,
+				76E81A892BE48395007899B0 /* ColorExtensions.swift in Sources */,
+				76E81A752BE24DCB007899B0 /* modelData.swift in Sources */,
+				76E88C482BE23FF200017F8A /* MainView.swift in Sources */,
+				76E81A7A2BE338F5007899B0 /* SettingView.swift in Sources */,
 				76E88C382BE23F9C00017F8A /* GradientApp.swift in Sources */,
+				76E81A7E2BE34323007899B0 /* GradientView.swift in Sources */,
+				76E81A872BE47CC8007899B0 /* LikeView.swift in Sources */,
+				76618A4C2BF8D26700AF46FC /* storekitManager.swift in Sources */,
+				76E81A8B2BE4CAB7007899B0 /* SendEmailView.swift in Sources */,
+				76E81A7C2BE33B0B007899B0 /* NavView.swift in Sources */,
+				76E81A8F2BE5D179007899B0 /* swift.swift in Sources */,
+				76E81A8D2BE4DCCD007899B0 /* SwiftUIView.swift in Sources */,
+				76DF29DF2BF8C9BE00EE951D /* sendMailSwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -258,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -273,23 +335,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Gradient/Preview Content\"";
+				DEVELOPMENT_TEAM = F7TRH9293R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_FILE = Gradient/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = study.com.test.Gradient;
+				PRODUCT_BUNDLE_IDENTIFIER = saintgirl.com.skyGradient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,23 +370,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Gradient/Preview Content\"";
+				DEVELOPMENT_TEAM = F7TRH9293R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_FILE = Gradient/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = study.com.test.Gradient;
+				PRODUCT_BUNDLE_IDENTIFIER = saintgirl.com.skyGradient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

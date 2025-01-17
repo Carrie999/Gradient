@@ -7,12 +7,27 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
 
 #Preview {
     SwiftUIView()
+}
+
+
+struct SwiftUIView: View {
+    var body: some View {
+        
+        ZStack{
+        ZStack{
+            LinearGradient(gradient: Gradient(colors: [.blue, .green]), startPoint: .topLeading, endPoint: .bottomTrailing)
+                .edgesIgnoringSafeArea(.all)
+        }
+          
+            Text("Visit Singapore")
+                  .padding()
+                  .background(.thinMaterial)
+        }
+        
+//         .animation(.easeInOut(duration: 2))
+        }
+  
 }

@@ -10,23 +10,29 @@ import SwiftData
 
 @main
 struct GradientApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
+//    @EnvironmentObject var modelData: ModelData
+//    @State private var modelData = ModelData()
+//    var sharedModelContainer: ModelContainer = {
+//        let schema = Schema([
+//            Item.self,
+//        ])
+//        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+//
+//        do {
+//            return try ModelContainer(for: schema, configurations: [modelConfiguration])
+//        } catch {
+//            fatalError("Could not create ModelContainer: \(error)")
+//        }
+//    }()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavView()
+//            GradientView()
+//            Content1View()
         }
-        .modelContainer(sharedModelContainer)
+//        .environmentObject(ModelData())
+//        .modelContainer(sharedModelContainer)
     }
 }
+
